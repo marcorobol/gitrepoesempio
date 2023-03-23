@@ -1,4 +1,4 @@
-const array = [0, 1, false, 2, undefined, '', 3, null, 'main'];
+const array = [0, 1, false, 2, undefined, '', 3, null, 'main', 'myFeature'];
 
 // hotfix
 
@@ -10,3 +10,6 @@ const compact = array.filter( function (el, index, array) {
 } );
 console.log( array );
 
+function myFeature() {
+    return 'myFeature';
+}
