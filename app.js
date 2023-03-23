@@ -7,3 +7,7 @@ const compact = array.filter( function (el, index, array) {
         return false;
 } );
 console.log( array );
+
+function myFeature() {
+    return 'myFeature';
+}
